@@ -1,15 +1,15 @@
 .grid-container {
   display: grid;
   grid-template-columns: 1250px ;
-  grid-template-rows: 630px 630px 1750px 630px 630px 630px 630px;
-  /*background-color: #2196F3;*/
+  grid-template-rows: 630px 630px 1750px 630px 930px 630px 630px;
+  background-color: #2196F3;
   padding: 10px;
   grid-gap: 20px;
   grid-row-gap: 100px;
 }
 
 .grid-container > div {
-  /*background-color: white;*/
+  background-color: white;
   text-align: center;
   font-family: arial;
   padding: 20px 0;
@@ -245,18 +245,129 @@ a
 {
 	display: grid;
   grid-template-columns: 350px 350px 350px ;
-  grid-template-rows: 300px 300px;
+  grid-template-rows: 200px 200px;
   justify-content: center;
   grid-gap: 20px;
 }
 #item4 > div
 {
-	background-color: gray;
-
+	text-align: left;
+	color:#726f6f;
+	font-size: 17px;
+}
+#oh
+{
+	color: #ff026b;
 }
 #services_image
 {
 	height: 40px;
 	width: 40px;
-	align-content: left;
+	float: left;
+	text-align: left;
+}
+#Servicesp
+{
+	margin-left: 65px;
+}
+#Servicesb
+{
+	margin-left: 28px;
+}
+#learn
+{
+	color: #ff026b;
+	margin-left: 65px;
+}
+#item5p
+{
+	color:#726f6f;
+    font-size: 24px;
+    font-style: italic;
+    font-family: arial;
+    margin-left: 210px;
+    margin-right: 210px;
+}
+#person
+{
+	float: center;
+	border-radius: 50px;
+	height: 50px;
+	width: 50px;
+}
+#name
+{
+	position: relative;
+    color: #726f6f;
+    top: -16px;
+    left: 20px;
+}
+#flexcontainor
+{
+	display: flex;
+	    margin-left: 50px;
+}
+#flexcontainor > div
+{
+	margin: 10px;
+}
+#marquee1{
+	display: grid;
+	grid-template-columns: 300px 300px;
+	grid-template-rows: 100px 400px;
+	height: 300px;
+	width: 750px;
+
+}
+#marquee2{
+	height: 250px;
+	width: 400px;
+}
+#mm2
+{
+	height: 250px;
+	width: 400px;
+}
+#pre_next2
+{
+	height: 70px;
+	width: 150px;
+	border:none;
+	border-radius: 5px;
+	background-color: #ff026b;
+	font-weight: bold;
+	font-family: arial;
+	color: white;
+	font-size: 15px;
+	position: relative;
+  	top: -40px;
+}
+#textp
+{
+	margin-left: 65px;
+	text-align: left;
+}
+#textb
+{
+	margin-left: 28px;
+	text-align: left;
+}
+#learn1
+{
+	color: #ff026b;
+	margin-left: 65px;
+}
+#Consulting
+{
+	color: #ff026b;
+}
+#mitem
+{
+	grid-column: 1 / span 2;
+}
+#text_image
+{
+	height: 35px;
+	width: 35px;
+	
 }
