@@ -18,16 +18,23 @@
 a
 {
 	font-family: arial;
-  color: red;
+  color: black;
   padding: 8px 16px;
   text-decoration: none;
 }
 #navbar
 {
-	position: fixed;
-	/*color: red;*/
-	/*background-color: white;*/
+	padding-top: 31px;
+  position: fixed;
+  z-index: 10;
+  top: 0px;
+  left: 0px;
+  box-shadow: 10px 0 5px -2px #888;
+  background-color: white;
+  height: 28px;
+  width: 1390px;
 }
+
 #logo
 {
 	align-items: start;
@@ -35,11 +42,11 @@ a
 }
 #logo1
 {
-	padding-left: 200px;
+	padding-left: 160px;
 }
 #logo
 {
-	padding-left: 100px;
+	/*padding-left: 100px;*/
 }
 .item1
 {
@@ -567,7 +574,7 @@ footer
 #fdiv1
 {
   padding-left: 100px;
-  padding-top: 60px;
+  padding-top: 130px;
   padding-right: 152px;
   font-size: 18px;
   color: #726f6f;
@@ -582,29 +589,57 @@ footer
 	font-family: arial;
   color: #726f6f;
   padding:10px;
+  position: absolute;
   text-decoration: none;
 }
 #fdiv2
 {
 	padding: 10px;
-	margin-top: 50px
+	margin-top: 130px
+}
+#fdiv3
+{
+	padding: 10px;
+	margin-top: 130px
 }
 #enter_mail
 {
 	margin-top: 10px;
 	height: 35px;
 	width: 210px;
+	padding-left:  10px;
+	background-color: #424447;
   border-radius: 50px 0px 0px 50px;
 	border: 1px solid #ccc;
 }
 #send
 {
 	height: 40px;
-  width: 72px;
+ 	width: 90px;
   border: none;
   border-radius: 0px 50px 50px 0px;
 	background-color: #ff026b;
 	font-weight: bold;
 	color: white;
-	margin-left: -4px;
+	margin-left: -5px;
+}
+#Follow
+{
+	color: white;
+	font-size: 20px;
+	position: relative;
+  top: 20px;
+}
+#social
+{
+	height: 20px;
+	width: 20px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+#copyright
+{
+	color: #726f6f;
+	text-align: center;
+	margin-left: 405px;
 }
