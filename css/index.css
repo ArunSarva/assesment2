@@ -1,8 +1,8 @@
 .grid-container {
   display: grid;
   grid-template-columns: 1250px ;
-  grid-template-rows: 630px 630px 1750px 630px 930px 630px 630px;
-  background-color: #2196F3;
+  grid-template-rows: 630px 630px 1850px 630px 700px 650px 750px;
+  /*background-color: #2196F3;*/
   padding: 10px;
   grid-gap: 20px;
   grid-row-gap: 100px;
@@ -17,18 +17,17 @@
 }
 a
 {
-	/*display: block;*/
-	/*font-weight:bold;*/
 	font-family: arial;
-  color: #ffffff;
+  color: red;
   padding: 8px 16px;
   text-decoration: none;
 }
-/*#navbar
+#navbar
 {
 	position: fixed;
-	background-color: white;
-}*/
+	/*color: red;*/
+	/*background-color: white;*/
+}
 #logo
 {
 	align-items: start;
@@ -344,18 +343,31 @@ a
 }
 #textp
 {
+	color: #726f6f;
 	margin-left: 65px;
 	text-align: left;
+	font-size: 15px;
 }
 #textb
 {
+  font-size: 16px;
+	color: #726f6f;
 	margin-left: 28px;
+	text-align: left;
+}
+#textb1
+{
+  font-size: 16px;
+	color: #726f6f;
+	margin-right: 39px;
 	text-align: left;
 }
 #learn1
 {
 	color: #ff026b;
 	margin-left: 65px;
+	font-size: 15px;
+  margin-right: 155px;
 }
 #Consulting
 {
@@ -367,7 +379,232 @@ a
 }
 #text_image
 {
+	height: 30px;
+	width: 30px;
+	margin-right: 141px;
+}
+#blog_head
+{
+	color: #ff026b;
+}
+#item6
+{
+	color: #ff026b;
+}
+.blog_grid{
+  display: grid;
+  grid-template-columns: 330px 330px 330px;
+  grid-template-rows: 600px;
+  justify-content: center;
+  grid-gap: 40px;
+}
+#t2{
+background-color: #d1cfcf;
+font-family:arial;
+/*color:#726f6f;*/
+}
+.blog_grid > h4{
+	font-weight: bold;
+	color: black;
+}
+#tp
+{
+	color:#726f6f;
+	font-size: 15px;
+}
+#t1
+{
+	margin-bottom: 0px;
+}
+#blog_image
+{
+	height: 300px;
+	width: 350px;
+}
+#blogp
+{
+	color: #726f6f;
+	margin-left: 20px;
+	text-align: left;
+	font-size: 15px;
+}
+#blogb
+{
+
+  font-size: 16px;
+	color: #ff026b;
+	margin-left: 17px;
+  margin-right: 179px;
+	text-align: left;
+}
+#blog_date
+{
+	font-size: 16px;
+	color: #726f6f;
+	margin-right: 46px;
+	text-align: left;
+}
+#news
+{
+
+	color: #ff026b;
+	margin-left: 0px;
+  margin-right: 15px;
+  font-size: 15px;
+}
+#bolg_Continue
+{
+	color: #ff026b;
+	font-size: 15px;
+  margin-right: 155px;
+}
+#item7
+{
+	color: #ff026b;
+}
+#services{
+  display: grid;
+  grid-template-columns: 650px 400px;
+  grid-template-rows: 300px;
+  grid-gap: 10px;
+
+}
+
+#services > div {
+  /*background-color: gray;*/
+  margin: 10px;
+  text-align: left;
+}
+form
+{
+	padding-left: 50px;
+	color: black;
+}
+#fname
+{
+	margin: 10px;
+	margin-right: 190px;
+	font-size: 16px;
+}
+#fsname
+{
+	margin: 10px;
+	margin-right: 10px;
+	font-size: 16px;
+}
+#ftext
+{
+	margin: 10px;
+	margin-right: 10px;
 	height: 35px;
-	width: 35px;
-	
+	width: 250px;
+	border-radius: 50px;
+	border: 1px solid #ccc;
+}
+#fmail
+{
+	margin: 10px;
+	font-size: 16px;
+}
+#tmail
+{
+	margin: 10px;
+	margin-right: 10px;
+	height: 35px;
+	width: 520px;
+	border-radius: 50px;
+	border: 1px solid #ccc;
+}
+#subject
+{
+	margin: 10px;
+	margin-right: 10px;
+	height: 120px;
+	width: 500px;
+	border-radius: 30px;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+#fsubmit
+{
+	height: 45px;
+	width: 150px;
+	border:none;
+	border-radius: 50px;
+	background-color: #ff026b;
+	font-weight: bold;
+	color: white;
+	margin-left: 15px;
+}
+#detail
+{
+	color: #726f6f;
+	font-size: 14px;
+  padding-top: 20px;
+}
+#detail1
+{
+ color:#ff026b;
+}
+footer
+{
+	background-color: #424447;
+	height: 500px;
+	font-family: arial;
+
+}
+#footer{
+  display: grid;
+  grid-template-columns: 600px 200px 440px;
+  grid-template-rows: 300px;
+  grid-gap: 10px;
+
+}
+#footer >div{
+	/*background-color: pink;*/
+
+}
+#fdiv1
+{
+  padding-left: 100px;
+  padding-top: 60px;
+  padding-right: 152px;
+  font-size: 18px;
+  color: #726f6f;
+}
+#about
+{
+	color: white;
+	font-size: 20px;
+}
+#Quick_Links
+{
+	font-family: arial;
+  color: #726f6f;
+  padding:10px;
+  text-decoration: none;
+}
+#fdiv2
+{
+	padding: 10px;
+	margin-top: 50px
+}
+#enter_mail
+{
+	margin-top: 10px;
+	height: 35px;
+	width: 210px;
+  border-radius: 50px 0px 0px 50px;
+	border: 1px solid #ccc;
+}
+#send
+{
+	height: 40px;
+  width: 72px;
+  border: none;
+  border-radius: 0px 50px 50px 0px;
+	background-color: #ff026b;
+	font-weight: bold;
+	color: white;
+	margin-left: -4px;
 }
